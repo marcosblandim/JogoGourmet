@@ -1,0 +1,1 @@
+Main-Class: desafio.objective.JogoGourmet
