@@ -24,11 +24,9 @@ public class Screens {
 	static int yesNoScreen(String dishIs) {
 		String message = String.format("O prato que você pensou é %s?", dishIs);
 		String title = "Confirm";
-		String[] simNaoOptions = { "Sim", "Não" };
 
 		int userResponse = JOptionPane.showConfirmDialog(null, message, title, JOptionPane.YES_NO_OPTION,
 				JOptionPane.QUESTION_MESSAGE);
-//		userResponse = JOptionPane.showOptionDialog(null, message, title, null, JOptionPane.INFORMATION_MESSAGE, null, simNaoOptions, simNaoOptions[0]);
 
 		return userResponse;
 	}
